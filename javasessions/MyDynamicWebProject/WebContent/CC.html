@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+
+  function add()
+  {
+	  var abc = document.getElementsByName("a1");
+	  var abcd = document.getElementsByName("b1");
+	  var a1 = abc[0].value;
+	  var b1 = abcd[0].value
+	  
+	  alert(parseInt(a1) + parseInt(b1));
+	  
+  }
+
+</script>
+
+</head>
+<body>
+
+
+ <form>
+ 
+ 	Enter A : <input type="text" name="a1" />
+ 	Enter B : <input type="text" name="b1">
+ 
+ 	<input type="button" value="Add" onclick="add()">
+ 
+ </form>
+ 
+ 
+<div class="myStyle">Customer Details</div>
+
+</body>
+</html>

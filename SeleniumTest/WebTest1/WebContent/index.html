@@ -1,0 +1,48 @@
+<html>
+
+<head>
+
+<script language='javascript'>
+
+function onButtonClick(){
+
+alert('HELLO');
+document.getElementById('myTxt').innerHTML = "YOU CLICK ON A BUTTON"
+
+}
+
+
+function addition(){
+
+	var c = parseInt(document.getElementById('a').value) + parseInt(document.getElementById('b').value);
+
+	document.getElementById('r').innerHTML= c;
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+	Hay I have Hands <BR>
+
+	<font color="blue" id="myTxt">Hay I have Legs </font>
+
+	<input type="button" value="CLICKME" onclick="onButtonClick()">
+	<BR>
+	
+	Enter A : <input type="text" value="10" id="a"><BR>
+	Enter B : <input type="text" value="20" id="b"><BR>
+	
+	<BR>
+	<input type="Button" value="ADD ABOVE" onclick="addition()">
+	<BR>
+	Result : 
+	<span id="r"></span><br>
+</body>
+
+
+
+</html>

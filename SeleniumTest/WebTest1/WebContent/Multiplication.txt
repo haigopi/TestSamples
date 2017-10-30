@@ -1,0 +1,29 @@
+
+<html>
+<head>
+<title>MultiplicationProgram</title>
+
+<script language="javascript" type="text/javascript">
+function multiPlication(){
+    m1=Number(document.multiplication.n1.value);
+    m2=Number(document.multiplication.n2.value);
+    r=m1*m2;
+    document.multiplication.result.value=r;
+}
+</script>
+
+</head>
+<body>
+
+<form name="multiplication">
+N1 : <br><input type="text" name="n1"> <br>
+N2 : <br><input type="text" name="n2"> <br>
+Result: <br> <input type="text" name="result">
+
+ <input type="button" value="MULTIPLY" onclick="javascript:multiPlication();">
+
+</form>
+
+</body>
+</html>
+

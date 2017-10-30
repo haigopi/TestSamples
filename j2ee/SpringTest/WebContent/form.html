@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Order Rice - Think Special</title>
+        <link rel="stylesheet" type="text/css" href="view.css" media="all" />
+        <script type="text/javascript" src="view.js"></script>
+    </head>
+    <body id="main_body">
+    <img border="0" src="KIRANABAZAR.png" width="650" height="80"/>
+     
+        <div id="form_container">
+            <h1>
+                <a href="#">TEST</a>
+            </h1>
+            <form id="form_935111" class="appnitro" method="post" action="riceOrder.order" name="kbForm">
+                <div class="form_description">
+                    <h2>Online Order - Just Rice</h2>
+                    <p>Will now be delivered to your home.</p>
+                </div>
+                <ul>
+                <li id="li_8"><label class="description" for="element_8">Select
+                        Items </label> <span> <input id="element_8_1" name="basmati"
+                            class="element checkbox" type="checkbox" value="1" /> <label
+                            class="choice" for="element_8_1">Basmati - 25 Kg - Rs 1200</label>
+                        <input id="element_8_2" name="sn1"
+                            class="element checkbox" type="checkbox" value="1" /> <label
+                            class="choice" for="element_8_2">Sona Masoori 25 Kg -
+                        Grade 1 - Rs 1400</label> <input id="element_8_3" name="sn2"
+                            class="element checkbox" type="checkbox" value="1" /> <label
+                            class="choice" for="element_8_3">Sona Masoori 25 Kg -
+                        Grade 2 - Rs 1600</label>
+                        </span>
+                    </li>
+                    </ul>
+                <ul>
+                    <li id="li_1"><label class="description" for="element_1">Name
+                        </label> <span> <input id="element_1_1" name="firstName"
+                            class="element text" maxlength="255" size="8" value="" /> <label>First</label>
+                        </span> <span> <input id="element_1_2" name="lastName"
+                            class="element text" maxlength="255" size="14" value="" /> <label>Last</label>
+                        </span>
+                    </li>
+                    <li id="li_4">
+                        <label class="description" for="element_4">Email
+                        </label>
+                        <div>
+                            <input id="element_4" name="email" class="element text medium"
+                                type="text" maxlength="255" value="" />
+                        </div>
+                    </li>
+                    <li id="li_5"><label class="description" for="element_5">Mobile
+                        Number </label> <span> <input id="element_5_1" name="mobileNumber_1"
+                            class="element text" size="3" maxlength="3" value="" type="text">
+                        - <label for="element_5_1">(###)</label></span> <span> <input
+                            id="element_5_2" name="mobileNumber_2" class="element text" size="3"
+                            maxlength="3" value="" type="text"> - <label
+                            for="element_5_2">###</label></span> <span> <input
+                            id="element_5_3" name="mobileNumber_3" class="element text" size="4"
+                            maxlength="4" value="" type="text"> <label
+                            for="element_5_3">####</label></span>
+                    </li>
+                    <li id="li_6"><label class="description" for="element_6">Alternate
+                        Number </label> <span> <input id="element_6_1" name="alternateNumber_1"
+                            class="element text" size="3" maxlength="3" value="" type="text">
+                        - <label for="element_6_1">(###)</label></span> <span> <input
+                            id="element_6_2" name="alternateNumber_2" class="element text" size="3"
+                            maxlength="3" value="" type="text"> - <label
+                            for="element_6_2">###</label></span> <span> <input
+                            id="element_6_3" name="alternateNumber_3" class="element text" size="4"
+                            maxlength="4" value="" type="text"> <label
+                            for="element_6_3">####</label></span>
+                    </li>
+                    <li class="section_break">
+                    </li>
+                    <li id="li_3">
+                        <label class="description" for="element_3">Address
+                        </label>
+                        <div>
+                            <input id="element_3_1" name="address1"
+                                class="element text large" value="" type="text"> <label
+                                for="element_3_1">Street Address</label>
+                        </div>
+                        <div>
+                            <input id="element_3_2" name="address2"
+                                class="element text large" value="" type="text"> <label
+                                for="element_3_2">Address Line 2</label>
+                        </div>
+                        <div class="left">
+                            <input id="element_3_3" name="city"
+                                class="element text medium" value="Hyderabad/Secundrabad" type="text" readonly="readonly"> <label
+                                for="element_3_3">City</label>
+                        </div>
+                        <div class="right">
+                            <input id="element_3_4" name="state"
+                                class="element text medium" value="Telangana" type="text" readonly="readonly"> <label
+                                for="element_3_4">State / Province / Region</label>
+                        </div>
+                        <div class="left">
+                            <input id="element_3_5" name="zip"
+                                class="element text medium" maxlength="15" value="" type="text">
+                            <label for="element_3_5">Postal / Zip Code</label>
+                        </div>
+                        <div class="right">
+                            <select class="element text medium" id="element_3_6"
+                                name="country" readonly="readonly">
+                                <option value="India" selected="selected">India</option>
+                            </select>
+                            <label for="element_3_6">Country</label>
+                        </div>
+                    </li>
+                    <li class="section_break">
+                    </li>
+                    <li id="li_7"><label class="description" for="element_7">Payment
+                        Option </label> <span> <input id="element_7_1" name="payment" checked
+                            class="element radio" type="radio" value="1" /> <label
+                            class="choice" for="element_7_1">Cash On Delivery</label>
+                        </span>
+                    </li>
+                    <li class="section_break">
+                    </li>
+                    
+                    <a class="button_example" href="javascript:document.forms['kbForm'].submit()">Place Order</a>
+                </ul>
+            </form>
+            <div id="footer">
+                <a href="http://www.KiranaBazar.com">Terms Conditions</a> | Operations executed by <a href="http://www.KiranaBazar.com">KiranaBazar.com</a> |  
+                 
+Copyright (C) 2014-2015 | All rights reserved.<br /> 
+
+</p>
+            </div>
+        </div>
+        <img id="bottom" src="bottom.png" alt=""/>
+    </body>
+</html>
+
+
+
+
+
+
+
